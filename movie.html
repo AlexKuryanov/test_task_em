@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог фильмов</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="page__body">
+  <header class="page__header header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <h1 class="header__title">NETCLICKS</h1>
+          <p>всё о сериалах</p>
+        </div>
+        <div class="header__menu menu">
+          <a class="menu__link" href="#">Вход и регистрация</a>
+        </div>
+        <div class="header__menu-mobile menu-mobile">
+          <img class="menu-mobile__pic" src="images/icon-menu.svg" alt="burger icon">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page__search">
+      <div class="container">
+        <div class="search__wrapper">
+          <input class="search__input" id="search" type="text" placeholder="Что хотите посмотреть?">
+          <button class="search__button">
+            <img src="images/icon-search.svg" alt="search icon">
+            <span>Найти</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="page__content content">
+      <div class="container">
+        <div class="content-box">
+          <div class="content-movie">
+            <div class="content-movie__poster">
+              <img src="./images/movie_1.png" alt="Постер фильма 1" width="460" height="655">
+            </div>
+            <div class="content-movie__wrapper">
+              <div class="content-movie__info">
+                <div class="content-movie__heading">
+                  <h1 class="content-movie__title">Марсианин,<span class="title_en"> The Martian 2015</span></h1>
+                  <p class="content-movie__description">Фантастика, приключения</p>
+                  <p class="rating">7.8</p>
+                </div>
+                <div class="content-movie__text">
+                  <p>Марсианская миссия «Арес-3» в процессе работы была вынуждена экстренно покинуть планету из-за
+                    надвигающейся песчаной бури. Инженер и биолог Марк Уотни получил повреждение скафандра во время
+                    песчаной
+                    бури. Сотрудники миссии, посчитав его погибшим, эвакуировались с планеты, оставив Марка одного.</p>
+                  <p>
+                    Очнувшись, Уотни обнаруживает, что связь с Землёй отсутствует, но при этом полностью функционирует
+                    жилой
+                    модуль. Главный герой начинает искать способ продержаться на имеющихся запасах еды, витаминов, воды
+                    и
+                    воздуха ещё 4 года до прилёта следующей миссии «Арес-4».</p>
+                </div>
+              </div>
+              <div class="content-movie__controls">
+                <button class="btn btn_watch" type="button">Смотреть</button>
+              </div>
+            </div>
+          </div>
+          <aside class="content-aside">
+            <div class="content-aside__info">
+              <h2 class="content-aside__title">Подборки фильмов и сериалов</h2>
+              <div class="content-aside__wrapper">
+                <div class="content-aside__item">
+                  <h3>Топ-250</h3>
+                  <p>Подборка фильмов и сериалов с наивысшими оценками зрителей</p>
+                </div>
+                <div class="content-aside__item">
+                  <h3>Посмеяться от души</h3>
+                  <p>Подборка комедий, которые помогут расслабиться после работы</p>
+                </div>
+                <div class="content-aside__item">
+                  <h3>Запутанный сюжет</h3>
+                  <p>Триллеры и приключения с запутанным и интересным сюжетом. Невозможно оторваться!</p>
+                </div>
+              </div>
+            </div>
+            <div class="content-aside__footer">
+              <p>© ООО «Неткликс», 2024</p>
+              <a href="#">Политика конфиденциальности</a>
+              <a href="#">Обработка персональных данных</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
