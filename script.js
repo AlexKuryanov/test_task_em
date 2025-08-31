@@ -9,7 +9,7 @@ const movies = [
     category: "Фантастика, приключения",
     rating: 7.8,
     link: "movie.html",
-    img: "./images/movie_1.png",
+    img: "./images/poster_1.png",
   },
   {
     id: 1,
@@ -18,7 +18,7 @@ const movies = [
     category: "Фантастика, приключения",
     rating: 7.8,
     link: "movie.html",
-    img: "./images/movie_1.png",
+    img: "./images/poster_2.png",
   },
   {
     id: 2,
@@ -27,7 +27,34 @@ const movies = [
     category: "Фантастика, приключения",
     rating: 7.8,
     link: "movie.html",
-    img: "./images/movie_1.png",
+    img: "./images/poster_3.png",
+  },
+  {
+    id: 3,
+    title: "Марсианин 1",
+    original: "The Martian 2015",
+    category: "Фантастика, приключения",
+    rating: 7.8,
+    link: "movie.html",
+    img: "./images/poster_4.png",
+  },
+  {
+    id: 4,
+    title: "Марсианин 2",
+    original: "The Martian 2015",
+    category: "Фантастика, приключения",
+    rating: 7.8,
+    link: "movie.html",
+    img: "./images/poster_5.png",
+  },
+  {
+    id: 5,
+    title: "Марсианин 3",
+    original: "The Martian 2015",
+    category: "Фантастика, приключения",
+    rating: 7.8,
+    link: "movie.html",
+    img: "./images/poster_6.png",
   },
 ];
 
