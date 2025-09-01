@@ -1,0 +1,12 @@
+<section class="page__search">
+  <div class="container">
+    <div class="search__wrapper">
+      <input [value]="searchResults" class="search__input" id="search-input" type="text"
+        placeholder="Что хотите посмотреть?" (input)="updateValue($event)">
+      <button class="search__button" id="search-button" (click)="updateSearch($event)" type="button">
+        <img src="./assets/images/icon-search.svg" alt="search icon">
+        <span>Найти</span>
+      </button>
+    </div>
+  </div>
+</section>

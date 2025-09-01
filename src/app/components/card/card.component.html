@@ -1,0 +1,10 @@
+<a [routerLink]="['/movie', movie.id]" class="content-card">
+  <div class="card__img-wrapper">
+    <img class="card__img" [src]="movie.image" width="264" height="376" [alt]="movie.title">
+  </div>
+  <h3 class="card__title">
+    <strong>{{movie.title}},</strong> <span class="title_en"> {{movie.original}}</span>
+  </h3>
+  <p class="card__description">{{movie.genres}}</p>
+  <p class="card__rating">{{movie.rating}}</p>
+</a>

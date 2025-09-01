@@ -1,0 +1,29 @@
+<section class="page__content content">
+  <div class="container">
+    <div class="content-box">
+      <div class="content-movie">
+        @if (movie) {
+        <div class="content-movie__poster">
+          <img [src]="movie.image" alt="Постер фильма 1" width="460" height="655">
+        </div>
+        <div class="content-movie__wrapper">
+          <div class="content-movie__info">
+            <div class="content-movie__heading">
+              <h1 class="content-movie__title">{{movie.title}}, <span class="title_en"> {{movie.original}}</span></h1>
+              <p class="content-movie__description">{{movie.genres}}</p>
+              <p class="rating">{{movie.rating}}</p>
+            </div>
+            <div class="content-movie__text">
+              {{movie.description}}
+            </div>
+          </div>
+          <div class="content-movie__controls">
+            <button class="btn btn_watch" type="button">Смотреть</button>
+          </div>
+        </div>
+        }
+      </div>
+      <app-aside></app-aside>
+    </div>
+  </div>
+</section>
